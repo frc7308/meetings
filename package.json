@@ -1,0 +1,23 @@
+{
+  "name": "7308meetings",
+  "version": "1.0.0",
+  "description": "Bot that sends out team meeting events to email, google calendar, and by extension, slack.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frc7308/meetings.git"
+  },
+  "author": "Isaac Wilcove",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frc7308/meetings/issues"
+  },
+  "homepage": "https://github.com/frc7308/meetings#readme",
+  "dependencies": {
+    "googleapis": "^27.0.0"
+  }
+}
